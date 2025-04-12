@@ -1,3 +1,4 @@
+
 const { giftedid } = require('./id'); // Ensure this module exports `giftedid`
 const express = require('express');
 const fs = require('fs');
@@ -28,8 +29,8 @@ function randomMegaId(length = 6, numberLength = 4) {
 async function uploadCredsToMega(credsPath) {
     try {
         const storage = await new Storage({
-            email: '', // Your Mega A/c Email Here
-            password: '' // Your Mega A/c Password Here
+            email: 'malvinb017@gmail.com', // Your Mega A/c Email Here
+            password: 'malvin266' // Your Mega A/c Password Here
         }).ready;
         console.log('Mega storage initialized.');
 
@@ -105,7 +106,7 @@ router.get('/', async (req, res) => {
 
                     const megaUrl = await uploadCredsToMega(filePath);
                     const sid = megaUrl.includes("https://mega.nz/file/")
-                        ? 'Gifted~' + megaUrl.split("https://mega.nz/file/")[1]
+                        ? 'MALVIN~' + megaUrl.split("https://mega.nz/file/")[1]
                         : 'Error: Invalid URL';
 
                     console.log(`Session ID: ${sid}`);
@@ -116,17 +117,20 @@ router.get('/', async (req, res) => {
 *✅sᴇssɪᴏɴ ɪᴅ ɢᴇɴᴇʀᴀᴛᴇᴅ✅*
 ______________________________
 ╔════◇
-║『 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃 』
-╚══════════════╝
-╔═════◇
-║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥: _youtube.com/@giftedtechnexus_
-║❒ 𝐎𝐰𝐧𝐞𝐫: _https://t.me/mouricedevs_
-║❒ 𝐑𝐞𝐩𝐨: _https://github.com/mauricegift/gifted-md_
-║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vb3hlgX5kg7G0nFggl0Y_
-║ 💜💜💜
+║『 𝐘OU HAVE CHOOSEN MALVIN XD 』
+╚══════════════
+
+ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
+> ❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥:
+ _youtube.com/@malvintech2_
+> ❒ 𝐎𝐰𝐧𝐞𝐫: 
+_https://t.me/malvintech_
+> ❒ 𝐑𝐞𝐩𝐨: 
+_https://github.com/XdKing2/MALVIN-XD_
+> ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥:
+ _https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A_
 ╚══════════════╝ 
- 𝗚𝗜𝗙𝗧𝗘𝗗-𝗠𝗗 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 5.𝟬.𝟬
+ MALVIN-X𝗗 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 
 ______________________________
 
 Use your Session ID Above to Deploy your Bot.`;
