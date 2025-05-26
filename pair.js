@@ -106,7 +106,7 @@ router.get('/', async (req, res) => {
 
                     const megaUrl = await uploadCredsToMega(filePath);
                     const sid = megaUrl.includes("https://mega.nz/file/")
-                        ? 'MALVIN~' + megaUrl.split("https://mega.nz/file/")[1]
+                        ? 'shadow~' + megaUrl.split("https://mega.nz/file/")[1]
                         : 'Error: Invalid URL';
 
                     console.log(`Session ID: ${sid}`);
@@ -117,20 +117,20 @@ router.get('/', async (req, res) => {
 *✅sᴇssɪᴏɴ ɪᴅ ɢᴇɴᴇʀᴀᴛᴇᴅ✅*
 ______________________________
 ╔════◇
-║『 𝐘OU HAVE CHOOSEN MALVIN XD 』
+║『 𝐘OU HAVE CHOOSEN DARK SHADOW MD 』
 ╚══════════════
 
  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
 > ❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥:
- _youtube.com/@malvintech2_
+ _Updating_
 > ❒ 𝐎𝐰𝐧𝐞𝐫: 
-_https://t.me/malvintech_
+_Pathum Malsara_
 > ❒ 𝐑𝐞𝐩𝐨: 
-_https://github.com/XdKing2/MALVIN-XD_
+_upadating_
 > ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥:
- _https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A_
+ _updating_
 ╚══════════════╝ 
- MALVIN-X𝗗 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 
+ DARK SHADOW-M𝗗 V4 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 
 ______________________________
 
 Use your Session ID Above to Deploy your Bot.`;
